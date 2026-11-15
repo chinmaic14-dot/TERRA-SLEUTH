@@ -1,0 +1,6 @@
+{
+  "name": "TERRA SLEUTH",
+  "description": "DETECT. INVESTIGATE. VERIFY. RESTORE. An Autonomous Multi-Agent Earth Intelligence & Environmental Investigation Platform.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,78 @@
+@import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  :root {
+    --font-display: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+    --font-sans: "IBM Plex Sans", system-ui, -apple-system, sans-serif;
+    --font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, monospace;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #07120F;
+    color: #E8F2ED;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: var(--font-display);
+  }
+
+  .font-mono, code, pre, .tabular-nums {
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* Subtle topographical & orbital observation background grid */
+.terra-topo-grid {
+  background-image:
+    radial-gradient(circle at 18% 12%, rgba(53, 201, 154, 0.05) 0%, transparent 42%),
+    radial-gradient(circle at 84% 22%, rgba(101, 184, 213, 0.04) 0%, transparent 38%),
+    linear-gradient(to right, rgba(157, 178, 167, 0.035) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(157, 178, 167, 0.035) 1px, transparent 1px);
+  background-size: 100% 100%, 100% 100%, 64px 64px, 64px 64px;
+}
+
+/* Leaflet dark scientific command-centre overrides */
+.leaflet-container {
+  background: #07120F;
+  font-family: var(--font-sans);
+}
+
+.leaflet-popup-content-wrapper,
+.leaflet-popup-tip {
+  background: #0B1C17;
+  color: #E8F2ED;
+  border: 1px solid rgba(157, 178, 167, 0.22);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.45);
+}
+
+.leaflet-control-attribution {
+  background: rgba(7, 18, 15, 0.8) !important;
+  color: #9DB2A7 !important;
+  font-size: 10px !important;
+}
+
+.leaflet-control-attribution a {
+  color: #65B8D5 !important;
+}
+
+/* Custom sleek scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #07120F;
+}
+::-webkit-scrollbar-thumb {
+  background: #1B3A30;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #2B594B;
+}

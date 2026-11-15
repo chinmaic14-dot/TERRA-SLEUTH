@@ -1,0 +1,1562 @@
+MASTER IMPLEMENTATION PROMPT — TERRA SLEUTH
+
+Autonomous Multi-Agent Earth Intelligence, Environmental Investigation & Action Platform
+
+You are working on my EXISTING project.
+
+PROJECT NAME: TERRA SLEUTH
+
+TAGLINE: DETECT. INVESTIGATE. VERIFY. RESTORE.
+
+FULL IDENTITY:
+TERRA SLEUTH — Autonomous Multi-Agent Earth Intelligence & Environmental Investigation System.
+
+Your task is to transform the existing application into a fully functional, scientifically grounded, multi-agent environmental intelligence platform.
+
+This is an existing project. You MUST first inspect the entire workspace, understand its architecture and identify existing functionality before making changes.
+
+Do not blindly rewrite the project.
+
+The final application must be a professional, multi-page scientific investigation system where eight autonomous agents perform actual research, retrieve real environmental observations, conduct mathematical analysis, challenge findings and produce practical environmental solutions.
+
+The platform must also provide access to current environmental conditions, including weather, soil-related observations, rainfall, temperature, vegetation and other available environmental indicators.
+
+IMPORTANT:
+This must be a working application, NOT a collection of static dashboards, decorative agent cards or hardcoded demonstration screens.
+
+---
+
+1. PROJECT IDENTITY AND BRANDING
+
+Use the name:
+
+TERRA SLEUTH
+
+Tagline:
+
+DETECT. INVESTIGATE. VERIFY. RESTORE.
+
+Supporting description:
+
+An Autonomous Multi-Agent Earth Intelligence & Environmental Investigation Platform.
+
+The application's identity should communicate:
+
+- Earth observation.
+- Environmental intelligence.
+- Scientific investigation.
+- Satellite monitoring.
+- Environmental threat detection.
+- Evidence-based solutions.
+- Real-world restoration.
+
+Visual identity
+
+Build a premium scientific command-centre interface.
+
+Use:
+
+- Deep forest green.
+- Earth-inspired dark olive.
+- Deep charcoal.
+- Dark navy.
+- Muted teal.
+- Satellite-inspired cyan.
+- Restrained lime green.
+- Warm earth tones.
+
+Suggested colour palette:
+
+- Background: #07120F
+- Secondary background: #0B1C17
+- Card background: #10251E
+- Primary accent: #35C99A
+- Secondary accent: #65B8D5
+- Earth accent: #B58C5A
+- Primary text: #E8F2ED
+- Secondary text: #9DB2A7
+
+Create a sophisticated background inspired by:
+
+- Earth from space.
+- Satellite observation imagery.
+- Topographical maps.
+- Geographical contours.
+- Subtle environmental data patterns.
+- Earth observation grids.
+- Terrain textures.
+
+Use an appropriate Earth/satellite visual in the hero area and restrained background textures throughout the application.
+
+Do not make the entire application bright green.
+
+Avoid generic white dashboards, random gradients, excessive glow effects, unnecessary animations and oversized typography.
+
+The interface must be elegant, scientific, modern, consistent and highly readable.
+
+---
+
+2. CRITICAL APPLICATION ARCHITECTURE — MULTIPLE PAGES
+
+NON-NEGOTIABLE:
+
+DO NOT PLACE THE ENTIRE APPLICATION ON ONE PAGE.
+
+Build a proper multi-page application with a persistent left sidebar, organised navigation, independent workspaces and properly structured sub-pages.
+
+The user must navigate between pages without losing investigation context.
+
+Main navigation structure
+
+Arrange the sidebar in the following exact order:
+
+1. Home
+2. Live Earth Monitor
+3. Investigation Workspace
+4. Data Scout
+5. Trend Detective
+6. Geo Intelligence
+7. Relationship Analyst
+8. Cause Investigator
+9. Science Challenger
+10. Impact Analyst
+11. Earth Judge
+12. Solution Centre
+13. Scientific Reports
+
+IMPORTANT ORDER:
+
+- Solution Centre must be the SECOND-LAST navigation item.
+- Scientific Reports must be the LAST navigation item.
+
+Keep this order.
+
+Do not combine Solution Centre and Scientific Reports into one page.
+
+Each navigation option must open its own functional page.
+
+Sidebar design
+
+Create:
+
+- TERRA SLEUTH logo and name at the top.
+- Tagline in a compact format.
+- Clearly identifiable icons.
+- Consistent icon sizing.
+- Active-page highlighting.
+- Proper spacing.
+- Hover effects.
+- Collapsible sidebar where supported.
+- Responsive mobile navigation.
+
+Do not use random icon styles.
+
+Every icon must have a meaningful relationship with its function.
+
+Page structure
+
+Each page should have:
+
+1. Page title.
+2. Short description.
+3. Relevant environmental context.
+4. Main controls.
+5. Data visualisation area.
+6. Analysis results.
+7. Evidence and sources.
+8. Relevant sub-navigation.
+9. Loading, empty, error and success states.
+
+Use neatly aligned side-by-side layouts wherever appropriate.
+
+For example:
+
+- Filters on one side and results on the other.
+- Two geographical regions displayed side by side.
+- Three cause-investigation cards in one row.
+- Multiple graph panels arranged in a consistent grid.
+- Agent status and evidence displayed in separate panels.
+
+Use consistent card dimensions, spacing, padding, alignment and typography.
+
+Do not overcrowd pages.
+
+---
+
+3. HOME — TERRA SLEUTH COMMAND CENTRE
+
+The Home page is the central entry point.
+
+Create a sophisticated landing dashboard.
+
+Main hero section
+
+Display:
+
+TERRA SLEUTH
+
+DETECT. INVESTIGATE. VERIFY. RESTORE.
+
+An autonomous environmental intelligence platform that investigates Earth's changing systems using satellite observations, scientific analysis and multi-agent intelligence.
+
+Include:
+
+- Earth observation background.
+- Start Investigation button.
+- Explore Live Earth button.
+- Current system status.
+- Latest investigation summary, if available.
+
+Environmental overview
+
+Display real environmental indicators when available:
+
+- Current temperature.
+- Current weather conditions.
+- Rainfall.
+- Soil moisture.
+- Land surface temperature.
+- Vegetation condition.
+- Active fire observations.
+- Drought indicators.
+- Environmental anomalies.
+
+Each indicator must display:
+
+- Actual value.
+- Unit.
+- Location.
+- Observation timestamp.
+- Data source.
+- Freshness status.
+
+Never display fabricated live values.
+
+Investigation overview
+
+Show:
+
+- Total investigations.
+- Active investigations.
+- Completed investigations.
+- Environmental concerns detected.
+- Regions monitored.
+- Recent scientific findings.
+
+These values must come from actual database records.
+
+Agent status panel
+
+Show the eight agents with:
+
+- Agent name.
+- Current status.
+- Last execution.
+- Investigation progress.
+- Findings count.
+- Open Agent Workspace action.
+
+Agent status must reflect actual execution, not decorative animations.
+
+Recent investigations
+
+Display actual saved investigations with:
+
+- Research question.
+- Geographical area.
+- Date.
+- Status.
+- Final verdict.
+- Open Investigation action.
+
+---
+
+4. LIVE EARTH MONITOR — CURRENT ENVIRONMENTAL INTELLIGENCE
+
+This is a dedicated page for monitoring current and recently observed environmental conditions.
+
+It must not display only historical graphs.
+
+Integrate suitable real data sources.
+
+Weather and atmospheric conditions
+
+Use appropriate services such as:
+
+- Open-Meteo for current weather and forecasts.
+- NASA POWER for relevant meteorological and climatological observations.
+- NASA MERRA-2 for atmospheric reanalysis.
+- NASA GPM for precipitation observations.
+
+Display:
+
+- Current temperature.
+- Relative humidity.
+- Wind speed and direction.
+- Rainfall.
+- Atmospheric pressure, where available.
+- Weather conditions.
+- Forecasts, where supported.
+
+Clearly distinguish forecasts, current observations and historical/reanalysis data.
+
+Soil intelligence
+
+Integrate suitable datasets and services:
+
+- NASA SMAP soil moisture.
+- SoilGrids for soil properties and baseline characteristics.
+- Relevant agricultural and environmental soil datasets where available.
+
+Display:
+
+- Soil moisture.
+- Soil temperature, where available.
+- Soil properties.
+- Observation period.
+- Spatial resolution.
+- Data source.
+- Data freshness.
+
+IMPORTANT:
+
+Do not describe SoilGrids static soil-property estimates as live soil measurements.
+
+Do not describe satellite soil moisture as a direct real-time measurement of every individual farm.
+
+If live or recent soil observations are unavailable, explain the temporal resolution and show the latest available observation.
+
+Satellite and environmental intelligence
+
+Integrate:
+
+- NASA MODIS.
+- Landsat.
+- NASA GIBS.
+- NASA Worldview.
+- NASA FIRMS.
+- NASA GPM.
+- NASA SMAP.
+- GRACE-FO.
+- MERRA-2.
+
+Show available:
+
+- Vegetation changes.
+- Land surface temperature.
+- Fire observations.
+- Rainfall anomalies.
+- Drought indicators.
+- Water storage changes.
+- Land-cover changes.
+
+Interactive environmental map
+
+Create an interactive geographical map with:
+
+- Searchable locations.
+- Layer controls.
+- Environmental markers.
+- Satellite imagery layers.
+- Time filters.
+- Selected-variable controls.
+- Location information panels.
+
+Map data must originate from actual services.
+
+Data freshness
+
+For every dataset, show:
+
+- Latest observation date.
+- Retrieval time.
+- Source.
+- Temporal resolution.
+- Update frequency, if documented.
+- Data availability status.
+
+Use labels such as:
+
+- Latest available observation.
+- Recently updated.
+- Delayed satellite observation.
+- Historical dataset.
+- Forecast.
+- Unavailable.
+
+Never label a delayed satellite product as live.
+
+---
+
+5. INVESTIGATION WORKSPACE
+
+Create a dedicated investigation setup page.
+
+Allow the user to define a scientific research question.
+
+Inputs:
+
+- Research question.
+- Environmental category.
+- Country.
+- State.
+- District or region.
+- Latitude and longitude, when available.
+- Date range.
+- Environmental variables.
+- Comparison regions, where needed.
+
+Environmental categories:
+
+- Water.
+- Agriculture.
+- Soil.
+- Forest.
+- Vegetation.
+- Climate.
+- Temperature.
+- Rainfall.
+- Drought.
+- Fire.
+- Land cover.
+- Coastal environment.
+- Other environmental concerns.
+
+Allow multiple variables and geographical regions.
+
+Before starting, perform a data availability check.
+
+Display:
+
+- Suitable NASA datasets.
+- Available observation periods.
+- Data coverage.
+- Missing or inaccessible sources.
+- Expected analysis limitations.
+
+Then provide:
+
+START SCIENTIFIC INVESTIGATION
+
+When clicked:
+
+1. Create an investigation record.
+2. Retrieve actual environmental data.
+3. Execute the eight-agent pipeline.
+4. Store structured outputs.
+5. Update execution status.
+6. Generate actual visualisations.
+7. Produce the final scientific assessment.
+
+Allow the user to inspect progress while agents execute.
+
+Provide cancellation and retry where technically supported.
+
+---
+
+6. AGENT 1 — DATA SCOUT
+
+Purpose: NASA dataset discovery, retrieval, validation and preparation.
+
+Integrate appropriate NASA services:
+
+- Earthdata.
+- Common Metadata Repository API.
+- Giovanni.
+- AppEEARS.
+- GIBS.
+- Worldview.
+- FIRMS.
+- NASA Harmony.
+- Mission-specific data services.
+
+Potential datasets:
+
+- GPM precipitation.
+- SMAP soil moisture.
+- MODIS vegetation indices.
+- MODIS land surface temperature.
+- GRACE-FO water storage.
+- MERRA-2 atmospheric observations.
+- Landsat land-cover observations.
+
+Responsibilities:
+
+1. Discover relevant datasets.
+2. Select suitable missions and variables.
+3. Retrieve actual observations.
+4. Validate data availability.
+5. Check units and metadata.
+6. Detect missing observations.
+7. Calculate missing-data percentages.
+8. Check spatial and temporal resolution.
+9. Record source information.
+10. Prepare structured data for downstream agents.
+
+Display:
+
+- Dataset.
+- NASA mission.
+- Variable.
+- Unit.
+- Time period.
+- Spatial resolution.
+- Temporal resolution.
+- Geographic coverage.
+- Missing-data percentage.
+- Data quality.
+- Source link.
+
+Do not select unsuitable datasets simply to increase the number of results.
+
+---
+
+7. AGENT 2 — TREND DETECTIVE
+
+Create two independent modules.
+
+A. Positive Trend Detective.
+B. Negative Trend / Opposite Trend Detector.
+
+A. Positive Trend Detective
+
+Detect:
+
+- Increasing trends.
+- Decreasing trends.
+- Stable trends.
+- Anomalies.
+- Sudden changes.
+- Seasonal deviations.
+- Acceleration and deceleration.
+- Possible reversals.
+
+Calculate:
+
+- Initial value.
+- Final value.
+- Absolute change.
+- Percentage change where meaningful.
+- Rate of change.
+- Trend slope.
+- Confidence intervals where appropriate.
+- Statistical significance.
+
+Use Python libraries for:
+
+- Linear regression.
+- Mann-Kendall tests.
+- Sen's slope.
+- Seasonal decomposition.
+- Z-score anomaly detection.
+- Change-point detection.
+
+Account for missing data, seasonality and autocorrelation.
+
+Create separate graphs:
+
+1. Increasing Trend Graph.
+2. Decreasing Trend Graph.
+3. Stable Trend Graph.
+4. Anomaly Detection Graph.
+5. Combined Trend Comparison Graph.
+
+B. Opposite Trend Detector
+
+Compare the same environmental variable across two or more geographical regions.
+
+Example:
+
+Region A — Soil moisture increasing.
+
+Region B — Soil moisture decreasing.
+
+Requirements:
+
+- Comparable datasets.
+- Comparable observation periods.
+- Compatible units.
+- Regional trend slopes.
+- Statistical uncertainty.
+- Regional differences.
+
+Graphs:
+
+1. Region A graph.
+2. Region B graph.
+3. Side-by-side comparison.
+4. Combined trend graph.
+5. Regional difference map or graph where supported.
+
+Clearly state whether opposite trends are detected.
+
+---
+
+8. AGENT 3 — GEO INTELLIGENCE
+
+Purpose: identify where environmental changes are occurring.
+
+Display:
+
+- Country.
+- State.
+- District.
+- Location.
+- Latitude.
+- Longitude.
+- Elevation where supported.
+- Environmental variable.
+- Actual measured value.
+- Unit.
+- Change magnitude.
+- Trend direction.
+- Observation period.
+- Spatial resolution.
+
+Create:
+
+1. Interactive geographical map.
+2. Environmental hotspot map.
+3. Regional comparison map.
+4. Spatial intensity map.
+5. Location-specific time-series graph.
+6. Regional magnitude graph.
+7. Elevation comparison graph where meaningful.
+
+Map markers and graphs must remain synchronised.
+
+Selecting a location must update the corresponding measurements and graphs.
+
+Never invent coordinates or elevation.
+
+---
+
+9. AGENT 4 — RELATIONSHIP ANALYST
+
+Investigate relationships such as:
+
+- Rainfall and soil moisture.
+- Soil moisture and land surface temperature.
+- Temperature and vegetation.
+- Rainfall and vegetation response.
+- Drought and agricultural stress.
+- Fire and vegetation conditions.
+
+Perform:
+
+- Pearson correlation.
+- Spearman correlation.
+- Lagged correlation.
+- Cross-correlation.
+- Regression where appropriate.
+
+Account for:
+
+- Compatible observation periods.
+- Seasonal variation.
+- Spatial compatibility.
+- Missing values.
+- Statistical assumptions.
+
+Create:
+
+1. Correlation heatmap.
+2. Scatter plot.
+3. Time-series comparison.
+4. Lagged relationship graph.
+5. Multi-variable comparison.
+
+Environmental classification:
+
+- RED — HIGH CONCERN.
+- YELLOW — MODERATE CONCERN.
+- GREEN — IMPROVING / ACCEPTABLE.
+
+Use defensible reference thresholds.
+
+Never claim that correlation proves causation.
+
+---
+
+10. AGENT 5 — CAUSE INVESTIGATOR
+
+Investigate the three most scientifically supported possible explanations for major environmental findings.
+
+For every explanation provide:
+
+- Cause.
+- Scientific reasoning.
+- Supporting evidence.
+- Relevant NASA datasets.
+- Geographical region.
+- Observation period.
+- Supporting measurements.
+- Confidence.
+- Alternative explanations.
+- Additional evidence required.
+
+Display three aligned explanation cards.
+
+Clearly label hypotheses.
+
+Do not claim causation without adequate scientific evidence.
+
+---
+
+11. AGENT 6 — SCIENCE CHALLENGER
+
+Independently challenge findings from previous agents.
+
+Investigate:
+
+- Data reliability.
+- Dataset compatibility.
+- Contradictions.
+- Missing data.
+- Statistical assumptions.
+- Uncertainty.
+- Bias.
+- Alternative explanations.
+- Unsupported causal claims.
+- Weak conclusions.
+
+For every major finding provide:
+
+Finding.
+Evidence.
+Reason.
+Contradictions.
+Cause assessment.
+Observation duration.
+Projection and assumptions, if available.
+Confidence.
+Scientific limitations.
+
+Create:
+
+1. Evidence comparison graph.
+2. Contradiction graph.
+3. Uncertainty graph.
+4. Historical versus projection graph, where projections exist.
+
+The agent must be able to reject weak conclusions.
+
+---
+
+12. AGENT 7 — IMPACT ANALYST
+
+Evaluate possible environmental and societal impacts.
+
+Consider:
+
+- Agriculture.
+- Water availability.
+- Forest ecosystems.
+- Biodiversity.
+- Human settlements.
+- Infrastructure.
+- Coastal communities.
+- Food and livelihood security.
+
+For each impact display:
+
+- Affected area.
+- Environmental evidence.
+- Potentially affected sector.
+- Severity.
+- Time scale.
+- Uncertainty.
+- Monitoring requirements.
+
+Classify:
+
+- HIGH IMPACT.
+- MODERATE IMPACT.
+- LOW / IMPROVING IMPACT.
+
+Distinguish potential exposure from confirmed damage.
+
+Generate:
+
+1. Impact severity graph.
+2. Regional impact graph.
+3. Environmental variable versus impact graph.
+4. Historical impact trend.
+5. Multi-sector comparison.
+
+Never invent affected population or financial losses.
+
+---
+
+13. AGENT 8 — EARTH JUDGE
+
+Collect structured outputs from all seven previous agents.
+
+Generate an independent, balanced scientific assessment.
+
+Include:
+
+- Research question.
+- Executive summary.
+- Methodology.
+- NASA datasets.
+- Geographical study area.
+- Observation period.
+- Data quality.
+- Environmental trends.
+- Opposite regional trends.
+- Statistical findings.
+- Relationships.
+- Possible causes.
+- Scientific challenges.
+- Contradictions.
+- Confidence.
+- Uncertainty.
+- Environmental impacts.
+- Recommended actions.
+- References.
+
+Final verdict:
+
+- HIGH CONCERN.
+- MONITOR.
+- IMPROVING.
+- INSUFFICIENT EVIDENCE.
+
+The verdict must be based on actual evidence, not predetermined conclusions.
+
+---
+
+14. GRAPH AND VISUALISATION ENGINE
+
+THIS SECTION IS EXTREMELY IMPORTANT.
+
+Every graph named in every agent section must actually exist and work.
+
+Do not create a single generic graph and reuse it for all modules.
+
+Implement a reusable scientific visualisation engine using the existing frontend technology.
+
+Python must calculate scientific results. The frontend must visualise the returned results.
+
+Every graph must have:
+
+- Correct graph title.
+- X-axis label.
+- Y-axis label.
+- Units.
+- Legend.
+- Actual observations.
+- Date range.
+- Source.
+- Data notes.
+- Interactive tooltips where supported.
+
+Required graph types:
+
+- Line graphs.
+- Bar graphs.
+- Scatter plots.
+- Correlation heatmaps.
+- Anomaly graphs.
+- Regional comparison graphs.
+- Trend comparison graphs.
+- Spatial maps.
+- Confidence interval graphs.
+- Lagged relationship graphs.
+
+Graph navigation
+
+Every agent must have its own graph section.
+
+Provide clearly visible graph names in tabs, sub-navigation or graph selectors.
+
+Example:
+
+TREND DETECTIVE:
+
+- Increasing Trend.
+- Decreasing Trend.
+- Stable Trend.
+- Anomaly Detection.
+- Regional Comparison.
+- Opposite Trends.
+
+Do not hide all graphs behind one generic dropdown.
+
+Use neatly aligned graph cards and consistent sizes.
+
+Graph interaction
+
+Users must be able to:
+
+- Change environmental variables.
+- Change geographical regions.
+- Change observation periods.
+- Select multiple variables.
+- Compare regions.
+- Switch graph types where appropriate.
+- Zoom.
+- Hover for measurements.
+- View source information.
+- Export graphs.
+
+Graphs must update using actual analysis results when filters change.
+
+Provide useful empty states if a particular graph cannot be generated.
+
+Never generate fabricated graph data.
+
+---
+
+15. SOLUTION CENTRE — ENVIRONMENTAL ACTION & IMPLEMENTATION HUB
+
+IMPORTANT NAVIGATION POSITION:
+
+SECOND-LAST PAGE.
+
+The Solution Centre must be a separate, fully functional workspace.
+
+Its purpose is to convert scientific findings into actual environmental implementation.
+
+The main Scientific Report must remain concise. Detailed solution resources belong here.
+
+15.1 Dynamic solutions
+
+Generate three ranked solutions based on:
+
+- Actual investigation findings.
+- Environmental category.
+- Geographical location.
+- User type.
+- Budget.
+- Scientific evidence.
+- Practical feasibility.
+- Sustainability.
+
+15.2 Find Products & Suppliers
+
+Integrate suitable purchasing and discovery services.
+
+Examples:
+
+- ONDC.
+- Authorised manufacturers.
+- Verified agricultural equipment suppliers.
+- Official procurement platforms.
+- Relevant product catalogues.
+
+Display:
+
+- Real product name.
+- Image.
+- Description.
+- Price where available.
+- Seller.
+- Availability where verified.
+- Product specifications.
+- Genuine purchasing link.
+
+Actions:
+
+- View Product.
+- Compare Products.
+- Visit Seller.
+- Purchase / Continue to Store.
+
+Never fabricate product listings, prices or stock.
+
+15.3 Government Schemes
+
+Discover relevant central and state government schemes.
+
+Starting resources:
+
+- https://www.myscheme.gov.in/
+- https://fruits.karnataka.gov.in/
+- https://kkisan.karnataka.gov.in/
+- https://agrimachinery.nic.in/
+- https://pmksy.mowr.gov.in/
+
+Dynamically determine relevance based on environmental problem, state, district and user category.
+
+Show:
+
+- Scheme name.
+- Department.
+- Benefits.
+- Eligibility.
+- Assistance amount where verified.
+- Required documents.
+- Application dates.
+- Official application link.
+- Last verified date.
+
+Actions:
+
+- Check Eligibility.
+- View Guidelines.
+- Prepare Documents.
+- Apply.
+- Track Application.
+
+Do not guarantee approval.
+
+15.4 Watch & Learn
+
+Find real:
+
+- Official tutorials.
+- Product installation videos.
+- Government application tutorials.
+- Maintenance guides.
+- Environmental restoration demonstrations.
+
+Support Kannada and English where available.
+
+Display actual video titles, publishers, languages and working links.
+
+Embed videos only where permitted.
+
+15.5 Online Application Assistance
+
+Provide step-by-step instructions for official applications.
+
+Explain:
+
+- Eligibility.
+- Documents.
+- Application process.
+- Submission steps.
+- Acknowledgement number.
+- Official tracking.
+
+Direct users to official portals for sensitive transactions.
+
+Never collect passwords, OTPs or Aadhaar credentials.
+
+15.6 Offline Assistance
+
+Find verified:
+
+- District offices.
+- Taluk offices.
+- Raitha Samparka Kendras.
+- Relevant government departments.
+- Authorised assistance centres.
+
+Display actual addresses, contact details and office hours only when verified.
+
+Provide:
+
+- Map.
+- Directions.
+- Visit checklist.
+- Documents to carry.
+- Questions to ask.
+- Offline procedure.
+
+15.7 Document Checklist
+
+Create solution-specific document checklists.
+
+Allow users to:
+
+- Mark documents prepared.
+- View requirements.
+- Access official forms.
+- Track pending documents.
+
+15.8 Implementation Tracker
+
+Track:
+
+1. Problem identified.
+2. Solution selected.
+3. Product identified.
+4. Eligibility checked.
+5. Documents prepared.
+6. Application submitted.
+7. Approval received.
+8. Materials purchased.
+9. Implementation completed.
+10. Environmental monitoring started.
+
+Persist progress in the database.
+
+Distinguish user-entered status from officially verified status.
+
+15.9 Environmental Outcome Monitoring
+
+After implementation, allow users to compare environmental indicators before and after the intervention.
+
+Examples:
+
+- Soil moisture.
+- Rainfall.
+- Vegetation condition.
+- Surface temperature.
+- Water availability indicators.
+
+Use actual available observations.
+
+Do not automatically attribute an environmental improvement to the user's intervention. Explain other possible contributing factors.
+
+15.10 Solution Centre design
+
+Create separate internal pages or sub-sections:
+
+- Recommended Solutions.
+- Product Marketplace.
+- Government Assistance.
+- Watch & Learn.
+- Online Applications.
+- Offline Assistance.
+- Document Checklist.
+- Implementation Tracker.
+- Outcome Monitoring.
+
+Every resource must be accessible from inside the Solution Centre.
+
+Where external websites prohibit embedding, provide a secure, clearly labelled official-portal link while retaining the user's guidance and progress inside TERRA SLEUTH.
+
+Do not use static link directories as the complete implementation.
+
+---
+
+16. SCIENTIFIC REPORTS — FINAL NAVIGATION PAGE
+
+IMPORTANT NAVIGATION POSITION:
+
+LAST PAGE.
+
+Create a dedicated Scientific Reports workspace.
+
+Keep the main scientific PDF concise.
+
+It should contain:
+
+1. Professional cover page.
+2. TERRA SLEUTH branding.
+3. Research question.
+4. Executive summary.
+5. Study area.
+6. NASA datasets.
+7. Methodology.
+8. Major trends.
+9. Key geographical findings.
+10. Important graphs.
+11. Environmental relationships.
+12. Three possible explanations.
+13. Scientific challenges.
+14. Confidence and uncertainty.
+15. Environmental impacts.
+16. Final Earth Judge verdict.
+17. Three recommended actions.
+18. References and sources.
+
+Create a separate downloadable Environmental Action Plan PDF.
+
+It should contain:
+
+- Environmental problem.
+- Affected area.
+- Scientific evidence.
+- Three ranked solutions.
+- Implementation steps.
+- Required resources.
+- Government assistance where verified.
+- Verified resource links.
+- Monitoring indicators.
+- Risks and limitations.
+
+Keep extensive product discovery, video libraries, office information and application guidance inside the Solution Centre rather than overcrowding the scientific report.
+
+Both PDF buttons must work.
+
+Generate documents using actual investigation records.
+
+Include relevant graphs and maps.
+
+Use proper page numbers, typography, spacing, aligned tables and clickable source links.
+
+Never generate empty or fabricated reports.
+
+---
+
+17. BACKEND AND SYSTEM ARCHITECTURE
+
+Inspect and preserve the existing technology stack.
+
+Implement or improve:
+
+- NASA service integrations.
+- Weather data integrations.
+- Soil data integrations.
+- Dataset retrieval.
+- Scientific processing.
+- Agent orchestration.
+- Structured agent communication.
+- Statistical analysis.
+- Geospatial processing.
+- Interactive graph data APIs.
+- Resource discovery.
+- Link validation.
+- Government scheme discovery.
+- Product discovery.
+- Video discovery.
+- Offline assistance.
+- Database persistence.
+- Investigation history.
+- Implementation tracking.
+- PDF generation.
+- Error handling.
+
+Use appropriate Python libraries, such as:
+
+- pandas.
+- numpy.
+- scipy.
+- statsmodels.
+- scikit-learn where suitable.
+- pymannkendall where suitable.
+- xarray.
+- geopandas.
+- rasterio.
+- matplotlib or plotly for scientific outputs.
+
+Use the existing frontend framework and graphing libraries wherever possible.
+
+Use structured JSON schemas for communication between agents.
+
+Maintain source provenance for every scientific result.
+
+Never ask an LLM to invent numerical measurements, statistical results or coordinates.
+
+LLMs may interpret verified results, investigate documented scientific explanations and generate structured summaries.
+
+---
+
+18. LIVE DATA AND API REQUIREMENTS
+
+Use actual accessible services.
+
+NASA:
+
+- Earthdata.
+- CMR API.
+- Giovanni.
+- AppEEARS.
+- GIBS.
+- Worldview.
+- FIRMS.
+- Harmony.
+- GPM.
+- SMAP.
+- MODIS.
+- GRACE-FO.
+- MERRA-2.
+- Landsat.
+
+Additional environmental services:
+
+- Open-Meteo for current weather and forecasts.
+- SoilGrids for soil property data.
+- Suitable government environmental datasets where available.
+
+Important distinctions:
+
+- Current weather is not the same as historical climate data.
+- Satellite soil moisture is not a direct measurement of every farm.
+- Soil property maps are not live soil observations.
+- Forecasts are not observations.
+- NASA satellite observations may have processing and publication delays.
+
+Display the actual timestamp and data freshness.
+
+If an API requires authentication, identify the required credential and document it in .env.example.
+
+Never expose API credentials in frontend code.
+
+Do not silently substitute simulated data when a live API fails.
+
+---
+
+19. UI QUALITY AND RESPONSIVENESS
+
+Every page must be professionally designed.
+
+Maintain:
+
+- Consistent sidebar.
+- Consistent page headers.
+- Consistent card sizes.
+- Proper icon alignment.
+- Clear graph labels.
+- Readable text.
+- Balanced spacing.
+- Professional tables.
+- Functional filters.
+- Responsive layouts.
+
+Use side-by-side content where appropriate.
+
+Avoid:
+
+- One-page overcrowding.
+- Excessive cards.
+- Random colours.
+- Misaligned graphs.
+- Empty dashboard widgets.
+- Decorative buttons.
+- Fake live data.
+- Unnecessary animations.
+- Unreadable graph labels.
+
+Every button, navigation item, tab, filter and download must have a working action.
+
+---
+
+20. SECURITY, RELIABILITY AND DATA INTEGRITY
+
+Implement:
+
+- Input validation.
+- Secure API key handling.
+- Server-side API calls.
+- Error logging.
+- Request timeouts.
+- Retry handling.
+- Rate-limit handling.
+- Caching where appropriate.
+- Source attribution.
+- Dataset provenance.
+- User data protection.
+- Safe external links.
+
+Never:
+
+- Fabricate NASA observations.
+- Invent government schemes.
+- Invent suppliers.
+- Invent office addresses.
+- Invent prices.
+- Claim a purchase is completed without confirmation.
+- Claim an application is approved without verification.
+- Present hypotheses as proven causes.
+- Present correlation as causation.
+- Present projections as guaranteed outcomes.
+
+---
+
+21. COMPLETE TESTING AND VALIDATION
+
+Test the entire system.
+
+Scientific testing
+
+1. NASA dataset discovery.
+2. Real data retrieval.
+3. Data validation.
+4. Missing-value handling.
+5. Increasing trend detection.
+6. Decreasing trend detection.
+7. Stable trend detection.
+8. Anomaly detection.
+9. Opposite regional trends.
+10. Statistical significance.
+11. Geographic mapping.
+12. Correlation analysis.
+13. Cause investigation.
+14. Science Challenger.
+15. Impact analysis.
+16. Earth Judge synthesis.
+
+Live intelligence testing
+
+17. Current weather retrieval.
+18. Soil dataset retrieval.
+19. Satellite imagery access.
+20. Environmental data freshness.
+21. Location-specific observations.
+
+Solution Centre testing
+
+22. Product discovery.
+23. Product links.
+24. Scheme discovery.
+25. Scheme eligibility guidance.
+26. Video resources.
+27. Application assistance.
+28. Offline office discovery.
+29. Document checklist.
+30. Implementation tracking.
+31. Outcome monitoring.
+
+Application testing
+
+32. Sidebar navigation.
+33. Individual agent pages.
+34. Every named graph.
+35. Graph filters.
+36. Map interactions.
+37. PDF generation.
+38. Download actions.
+39. Investigation history.
+40. Mobile responsiveness.
+
+Use genuine test fixtures for mathematical verification, clearly separated from live production observations.
+
+Do not mark a feature complete merely because its interface renders.
+
+---
+
+22. FINAL IMPLEMENTATION PROCEDURE
+
+Follow this exact workflow.
+
+PHASE 1 — INSPECTION
+
+- Inspect the entire workspace.
+- Understand architecture.
+- Identify existing functionality.
+- Identify missing modules.
+- Identify integration points.
+- Produce an implementation plan.
+
+PHASE 2 — APPLICATION STRUCTURE
+
+- Preserve existing working functionality.
+- Implement TERRA SLEUTH branding.
+- Build multi-page navigation.
+- Establish consistent design.
+- Keep Solution Centre second-last.
+- Keep Scientific Reports last.
+
+PHASE 3 — LIVE DATA
+
+- Integrate NASA services.
+- Integrate weather services.
+- Integrate soil-related datasets.
+- Implement source and freshness tracking.
+
+PHASE 4 — EIGHT AGENTS
+
+- Implement individual agent logic.
+- Implement structured communication.
+- Connect the complete pipeline.
+- Store investigation results.
+
+PHASE 5 — SCIENTIFIC VISUALISATION
+
+- Implement every named graph.
+- Connect graphs to actual calculated data.
+- Implement filters and map synchronisation.
+
+PHASE 6 — SOLUTION CENTRE
+
+- Implement actual product discovery.
+- Implement scheme discovery.
+- Implement videos and manuals.
+- Implement application guidance.
+- Implement offline assistance.
+- Implement document checklists.
+- Implement progress tracking.
+- Implement outcome monitoring.
+
+PHASE 7 — REPORTS
+
+- Generate scientific PDF.
+- Generate Environmental Action Plan PDF.
+- Verify both downloads.
+
+PHASE 8 — TESTING
+
+- Run backend tests.
+- Run frontend tests.
+- Run integration tests.
+- Test API failures.
+- Fix dependency and runtime errors.
+- Verify actual end-to-end data flow.
+
+PHASE 9 — FINAL REVIEW
+
+- Verify all pages.
+- Verify all buttons.
+- Verify all graph names and graphs.
+- Verify all navigation.
+- Verify all external resources.
+- Verify mobile responsiveness.
+- Verify that no mock data is used in production.
+
+---
+
+23. FINAL ACCEPTANCE REQUIREMENTS
+
+The project is considered complete only when:
+
+1. The application is branded TERRA SLEUTH.
+2. The tagline is DETECT. INVESTIGATE. VERIFY. RESTORE.
+3. The application is properly divided into multiple pages.
+4. The sidebar and navigation work.
+5. All eight agents perform actual assigned tasks.
+6. NASA integrations retrieve genuine observations.
+7. Current weather information is retrieved from a suitable live service.
+8. Soil-related information uses appropriate real datasets with accurate freshness labels.
+9. Statistical calculations are performed using Python.
+10. Every named graph is implemented and connected to actual data.
+11. Maps and graphs interact correctly.
+12. The Solution Centre is the second-last navigation item.
+13. The Solution Centre provides genuinely accessible implementation resources.
+14. Scientific Reports is the last navigation item.
+15. Both PDF downloads work.
+16. Existing working functionality is preserved.
+17. The complete application works on desktop and mobile.
+18. Backend, frontend and integration tests pass.
+19. API failures and missing data are handled honestly.
+20. No fake functionality is presented as complete.
+
+24. FINAL IMPLEMENTATION SUMMARY
+
+At completion, provide:
+
+- Project architecture inspected.
+- Files created.
+- Files modified.
+- Existing features preserved.
+- Pages implemented.
+- Eight agents implemented.
+- NASA services integrated.
+- Live weather integration.
+- Soil and environmental data integrations.
+- Statistical methods implemented.
+- Graphs implemented and tested.
+- Maps implemented and tested.
+- Solution Centre functionality.
+- Government resource integrations.
+- Product and video discovery.
+- Offline assistance.
+- Report generation.
+- Tests passed.
+- API credentials required.
+- Remaining limitations.
+
+Clearly distinguish completed, partially completed and unavailable features.
+
+Do not claim success for untested integrations.
+
+---
+
+FINAL OBJECTIVE
+
+Build TERRA SLEUTH as a complete, professional, autonomous Earth intelligence and environmental investigation platform.
+
+It must monitor available current environmental conditions, investigate changes using real NASA observations, identify geographical patterns, analyse scientific relationships, investigate possible causes, challenge weak conclusions, assess impacts and produce scientifically defensible findings.
+
+It must then help users move from those findings to real-world action through its dedicated Solution Centre.
+
+The experience must be distributed across separate, professionally designed pages, with properly organised navigation, interactive maps, functional graphs, actual environmental observations and genuinely working features.
+
+TERRA SLEUTH must not merely detect environmental problems. It must investigate them, verify the evidence and help people implement solutions.
+
+DETECT. INVESTIGATE. VERIFY. RESTORE.
